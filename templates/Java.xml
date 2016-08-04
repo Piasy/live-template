@@ -1,0 +1,12 @@
+<templateSet group="Java">
+  <template name="main" value="public static void main(String[] argv) {&#10;  $END$&#10;}" description="create main func" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pln" value="System.out.println($END$);" description="System.out.println" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
